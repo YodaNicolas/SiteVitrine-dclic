@@ -196,7 +196,8 @@ p {
 }
 
 .SectionpaysHotes {
-  display: flex;
+  /* display: flex; */
+  width: 100%;
   gap: 28PX;
   margin-top: 15px;
   padding-bottom: 50px;
