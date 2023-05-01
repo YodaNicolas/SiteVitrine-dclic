@@ -29,11 +29,14 @@
 }
 
 .positonTxtCarousel {
+  text-align: left;
+  width: 50%;
+  font-size: 4rem ;
   position: relative;
   color: blue;
   font-weight: 900;
-  bottom: 400px;
-  left: 310px;
+ bottom: 17rem;
+  left: 44rem;
 }
 
 .taillImCarousel {
@@ -196,7 +199,7 @@ p {
 }
 
 .SectionpaysHotes {
-  /* display: flex; */
+  display: flex;
   width: 100%;
   gap: 28PX;
   margin-top: 15px;
