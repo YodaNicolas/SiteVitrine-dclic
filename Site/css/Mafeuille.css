@@ -31,11 +31,11 @@
 .positonTxtCarousel {
   text-align: left;
   width: 50%;
-  font-size: 4rem ;
+  font-size: 4rem;
   position: relative;
   color: blue;
   font-weight: 900;
- bottom: 17rem;
+  bottom: 17rem;
   left: 44rem;
 }
 
@@ -108,7 +108,9 @@
   align-items: center;
   justify-content: left;
   height: 300px;
+  max-height: 400px;
   background-size: 100%;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(../images/PRESENTATION\ DCLIC.jpg);
@@ -162,14 +164,13 @@
   align-items: center;
   justify-content: space-around;
   position: relative;
-  /* top: 45px; */
 }
 
-/* .contneurCardPays {
+.contneurCardPays {
   display: flex;
   flex-direction: row;
   justify-content: center;
-} */
+}
 
 .gris {
   color: #908d8b !important;
@@ -197,7 +198,9 @@ p {
   color: orange;
   font-weight: bold;
 }
-
+#pariePays{
+  height: 45px;
+}
 .SectionpaysHotes {
   display: flex;
   width: 100%;
@@ -210,6 +213,119 @@ p {
   padding-top: 30px;
   background-color: blue;
 }
+.footer {
+  position: relative;
+  background-image: url(../images/IMAGEfooter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px !important;
+  background-color: rgba(3, 3, 3, 0.857); 
+  height: fit-content;
+}
+
+body{
+ overflow-x: hidden;
+}
+.lgn1Foot {
+  width: 100% !important;
+padding: 0px !important;
+margin: 0px !important;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+
+  
+}
+.svlg{
+  width: 100% !important;
+}
+.CoteGauche {
+  width: 48%;
+  margin-left: 15px;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.LogoPrprtes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 15px;
+  width: 100%;
+}
+
+.lgo {
+  max-width: 200px;
+}
+
+.L1Gche {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+ justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  /* background-color: rgba(255, 0, 0, 0.241); */
+}
+
+.DivTelMail {
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 400px;
+  align-items: start;
+ 
+  /* background-color: rgba(0, 0, 0, 0.565); */
+}
+
+.L1droite {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: fit-content;
+  min-width: 250px;
+  height: fit-content;
+  background-color: rgba(0, 0, 255, 0.104);
+}
+
+.LiensFoot {
+ 
+  font-size: 28px;
+  font-weight: 200;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+
+}
+
+.twt {
+  border-radius: 55px;
+}
+
+.LgnSuiv {
+  margin-top: 16px;
+  width: 100%;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.FlouNoir {
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  /* padding: 0px;
+  margin: 0px; */
+  background-color: rgba(0, 0, 0, 0.48);
+}
+
 /* .parent {
   position: relative;
   width: 100%;
@@ -233,3 +349,31 @@ p {
   opacity: 35%;
   background: rgba(0, 0, 0, 0.983);
 } */
+
+@media screen and (max-width:489px){
+  .imgEtSavoirPlus{
+    
+  }
+  .DivTelMail{
+    align-items: center;
+  }
+  .L1droite{
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width:713px){
+  .lgn1Foot{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon{
+    width: 25px;
+    height: 25px;
+  }
+  .L1droite{
+    align-items: center;
+    text-align: center;
+  }
+}
